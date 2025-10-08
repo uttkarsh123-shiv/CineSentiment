@@ -1,4 +1,4 @@
-🎬 CineSentiment: Deep Learning-Based Sentiment Analysis
+##🎬 CineSentiment: Deep Learning-Based Sentiment Analysis
 🌟 Project Overview
 This project implements a deep learning model to classify the sentiment (e.g., positive or negative) of text data, primarily focusing on cinema or movie-related content, as suggested by the project naming.
 
