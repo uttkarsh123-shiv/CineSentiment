@@ -1,10 +1,11 @@
-##🎬 CineSentiment: Deep Learning-Based Sentiment Analysis
-🌟 Project Overview
+#🎬 CineSentiment: Deep Learning-Based Sentiment Analysis
+
+#🌟 Project Overview
 This project implements a deep learning model to classify the sentiment (e.g., positive or negative) of text data, primarily focusing on cinema or movie-related content, as suggested by the project naming.
 
 The core of the system is a Long Short-Term Memory (LSTM) neural network built using TensorFlow/Keras, which is highly effective for sequential data like natural language. The model is trained to understand the context and nuances in text to accurately determine the underlying emotional tone.
 
-⚙️ Model Architecture
+#⚙️ Model Architecture
 The deep learning pipeline utilizes the following key components, visible in the included dependencies:
 
 Tokenizer (tensorflow.keras.preprocessing.text.Tokenizer): Converts raw text into numerical sequences, ensuring the model can process the input. The vocabulary learned during training is saved in tokenizer.pkl.
@@ -15,7 +16,7 @@ LSTM Layer: The recurrent layer responsible for learning long-term dependencies 
 
 Dense Layers: Standard feed-forward layers used for final classification (e.g., outputting a probability score for positive sentiment).
 
-📁 Repository Structure
+#📁 Repository Structure
 File
 
 Description
