@@ -29,8 +29,14 @@ This project uses a **Long Short-Term Memory (LSTM)** model built with **TensorF
 
 ---
 
-## 🚀 How to Use the Model for Inference
+## 📝 Dependencies
 
-### 1️⃣ Install Dependencies
-```bash
-pip install tensorflow pandas scikit-learn numpy
+Python 3.x
+
+TensorFlow / Keras
+
+Pandas
+
+NumPy
+
+Scikit-learn (sklearn)
