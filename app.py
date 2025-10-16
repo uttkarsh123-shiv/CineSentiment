@@ -1,3 +1,4 @@
+import os
 import joblib
 import numpy as np
 import streamlit as st
@@ -34,3 +35,24 @@ if st.button("Analyze Sentiment"):
         st.caption(f"Confidence: {prediction:.2f}")
     else:
         st.warning("Please enter a review before analyzing.")
+
+
+# --- Footer: GitHub Link (set st.secrets["GITHUB_URL"]) ---
+# github_url = "https://github.com/uttkarsh123-shiv/CineSentiment"
+# if hasattr(st, "secrets"):
+#     github_url = st.secrets.get("GITHUB_URL")
+# if not github_url:
+#     github_url = os.environ.get("GITHUB_URL")
+# if github_url:
+#     st.markdown("---")
+#     st.markdown(f"🔗 View this project on [GitHub]({github_url})")
+
+# ...existing code...
+# --- Footer: hardcoded GitHub link centered at bottom ---
+github_url = "https://github.com/uttkarsh123-shiv/CineSentiment"
+st.markdown("---")
+st.markdown(
+    f'<div style="text-align:center;">🔗 <a href="{github_url}" target="_blank" rel="noopener noreferrer">View this project on GitHub</a></div>',
+    unsafe_allow_html=True,
+)
+# ...existing code...
